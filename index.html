@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dados</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="row">
+<div class="col-sm-4">
+<h1>D4</h1>
+<p>Apretá el botón</p>
+<p id="cuatro"></p>
+<input type="button" class="btn btn-info" onclick= "cuatro()">
+<script>function cuatro()
+{
+var cuatrocho = Math.floor((Math.random() * 4) + 1);
+document.getElementById("cuatro").innerHTML = "<h1>" + cuatrocho + "</h1>";
+}
+</script>
+</div>
+<div class="col-sm-4">
+<h1>D6</h1>
+<p>Apretá el botón</p>
+<p id="seis"></p>
+<input type="button" class="btn btn-info" onclick= "seis()">
+<script>function seis()
+{
+var seisocho = Math.floor((Math.random() * 6) + 1);
+document.getElementById("seis").innerHTML = "<h1>" + seisocho + "</h1>";
+}
+</script>
+</div>
+ <div class="col-sm-4">
+<h1>D8</h1>
+<p>Apretá el botón</p>
+<p id="ocho"></p>
+<input type="button" class="btn btn-info" onclick= "ocho()">
+<script>function ocho()
+{
+var mocho = Math.floor((Math.random() * 8) + 1);
+document.getElementById("ocho").innerHTML = "<h1>" + mocho + "</h1>";
+}
+</script>
+</div>
+</div>
+
+<div class="row">
+<div class="col-sm-4">
+<h1>D10</h1>
+<p>Apretá el botón</p>
+<p id="diez"></p>
+<input type="button" class="btn btn-info" onclick= "diez()">
+<script>function diez()
+{
+var diezocho = Math.floor((Math.random() * 10) + 1);
+document.getElementById("diez").innerHTML = "<h1>" + diezocho + "</h1>";
+}
+</script>
+</div>
+<div class="col-sm-4">
+<h1>D12</h1>
+<p>Apretá el botón</p>
+<p id="doce"></p>
+<input type="button" class="btn btn-info" onclick= "doce()">
+<script>function doce()
+{
+var doceocho = Math.floor((Math.random() * 12) + 1);
+document.getElementById("doce").innerHTML = "<h1>" + doceocho + "</h1>";
+}
+</script>
+</div>
+<div class="col-sm-4">
+<h1>D20</h1>
+<p>Apretá el botón</p>
+<p id="veinte"></p>
+<input type="button" class="btn btn-info" onclick= "veinte()">
+<script>function veinte()
+{
+var veinteocho = Math.floor((Math.random() * 20) + 1);
+document.getElementById("veinte").innerHTML = "<h1>" + veinteocho + "</h1>";
+}
+</script>
+</div>
+</div>
+</body>
+
+</html>
